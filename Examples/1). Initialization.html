@@ -12,9 +12,12 @@
   </head>
   <body>
     <div class="container">
-        <h4 class="text-primary text-center py-4">DataTable Add-Ons</h4>
+        <div class="d-flex justify-content-between">
+            <h4 class="text-primary text-center py-4">DataTable Add-Ons : <small>( Basic Initalization )</small></h4>
+            <a href="./2). hide_filtration.html" class="btn btn-primary align-self-center">Next : Hide Search</a>
+        </div>
         
-        <table class="table table-sm table-striped dataTable nowrap w-100"  data-scroll-y="auto" data-scroll-x="true" data-scroll-collapse="true">
+        <table class="table table-sm table-striped dataTableAddOn">
             <thead>
                 <tr>
                     <th>Name</th>
@@ -502,7 +505,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
-    <script src="./plugin.js"></script>
+    <script src="./build/plugin.js"></script>
+    <script src="./build/app.js"></script>
     <script type="text/javascript">
     </script>
   </body>
